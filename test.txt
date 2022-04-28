@@ -15,3 +15,6 @@ node{
   stage('deploy') {
                   echo "deploy to tomcat"
                   }
+
+
+      }
