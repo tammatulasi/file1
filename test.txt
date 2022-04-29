@@ -4,10 +4,10 @@ node{
                    echo "cloning from SCM"
                    }
   stage('Build') {
-                 echo "build using maven"
+                 echo "build using maven, fixed bug"
                  }
   stage('test') {
-                echo "testing"
+                echo "testing new feature added"
                 }
   stage('Nexus') {
                 echo "upload the artifact to nexus"
