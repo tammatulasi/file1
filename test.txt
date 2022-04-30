@@ -1,7 +1,7 @@
 node{
   def mvnHome
   stage('prepare') {
-                   echo "cloning from SCM"
+                   echo "cloning from SCM from the feature_branch"
                    }
   stage('Build') {
                  echo "build using maven"
